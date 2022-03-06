@@ -2,37 +2,82 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*  NAVIGATION STYLING */
+/*  whole nav */
+nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0 auto;
+  flex-direction: row;
+  background-color: cadetblue;
+  height: 50px;
+  padding-top: 10px;
+  border-bottom: 3px solid gray;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+/* company name */
+nav .company-name {
+  text-decoration: none;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* just the links */
+nav ul {
+  display: inline-flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+nav .links {
+  display: inline;
+}
+
+nav ul li:nth-child(n+1) {
+  margin-left: 15px;
+
+}
+
+
+/* nav right side*/
+
+/* branded messaging */
+nav .branded-message {
+  font-weight: 800;
+}
+
+
+nav #loginSection {
+  display: inline;
+  font-style: italic;
+  margin-left: auto;
+}
+
+nav input {
+  background-color: whitesmoke;
+  width: 150px;
+}
+
+nav>div {
+  border: 1px solid red;
+}
+
+nav #username, #password {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+
+
+
+nav button {
+  width: 75px;
+  border-radius: 35px;
+  background-color: gold;
+  height: 30px;
+  padding-bottom: 1em;
+  ;
+  padding-left: 1em;
+  margin-right: 1em;
+  text-align: justify;
 }
