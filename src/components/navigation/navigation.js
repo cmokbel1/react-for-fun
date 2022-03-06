@@ -1,4 +1,3 @@
-import { render } from '@testing-library/react';
 import React from 'react';
 
 const Navigation = () => {
@@ -15,7 +14,7 @@ const Navigation = () => {
         </div>
       </div>
       <div className="right-side">
-          <span>Branded Message</span>
+          <span id="brandMessage">Branded Message</span>
         <div id="loginSection">
           <div id="username">
             <label htmlFor="lUsername">username:</label>

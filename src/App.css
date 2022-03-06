@@ -1,8 +1,4 @@
-.App {
-  text-align: center;
-}
-
-/*  NAVIGATION STYLING */
+/*  NAV STYLING BELOW THIS LINE */
 /*  whole nav */
 nav {
   display: flex;
@@ -19,6 +15,7 @@ nav {
 nav .company-name {
   text-decoration: none;
   color: black;
+  
 }
 
 /* just the links */
@@ -38,15 +35,14 @@ nav ul li:nth-child(n+1) {
 }
 
 
-/* nav right side*/
+/* NAV RIGHT SIDE*/
 
-/* branded messaging */
-nav .branded-message {
-  font-weight: 800;
+
+#brandMessage {
+  font-weight: 700;
 }
 
-
-nav #loginSection {
+#loginSection {
   display: inline;
   font-style: italic;
   margin-left: auto;
@@ -57,11 +53,8 @@ nav input {
   width: 150px;
 }
 
-nav>div {
-  border: 1px solid red;
-}
 
-nav #username, #password {
+#username, #password {
   display: inline;
   margin-left: 10px;
   margin-right: 5px;
@@ -81,3 +74,5 @@ nav button {
   margin-right: 1em;
   text-align: justify;
 }
+
+/* NAV STYLING ABOVE THIS LINE */
