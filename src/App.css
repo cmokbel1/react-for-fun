@@ -84,3 +84,13 @@ nav button {
 }
 
 /* NAV STYLING ABOVE THIS LINE */
+
+
+
+/* FOOTER STYLING BELOW THIS LINE */
+
+.footer {
+  display:flex;
+  justify-content: space-between;
+}
+/* FOOTER STYLING ABOVE THIS LINE */

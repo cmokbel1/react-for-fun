@@ -1,9 +1,12 @@
-import { Navigation } from '../src/components'
+import { Navigation, Foot } from '../src/components'
 import './App.css';
 
 function App() {
   return (
+    <>
     <Navigation/>
+    <Foot/>
+    </>
   );
 }
 
