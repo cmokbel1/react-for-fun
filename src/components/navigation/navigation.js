@@ -1,10 +1,11 @@
 import React from 'react';
 
 const Navigation = () => {
+
   return (
     <nav>
       <div className="left-side">
-          <a className="company-name" href="/">Company Name</a>
+          <a className="brand-name" href="/">Brand Name</a>
         <div className="links">
           <ul>
             <li ><a href="/">Link 1</a></li>
