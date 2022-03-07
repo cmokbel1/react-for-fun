@@ -1,28 +1,10 @@
-:root {
-  --bg-section: #374057;
-  --color-headers: #2c3e50;
-  --color-highlight-green: #00af4e;
-  --color-light-gray: #eeeff2;
-}
 
-* {
-  font-family: 'Roboto', sans-serif;
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-body {
-  /* make the body full height */
-  height: 100vh;
-  background-color: var(--bg-section);
-}
 
 .container {
-  width: 900px;
+  width: 800px;
   margin: auto;
   padding: 20px;
+  background-color: darkred
 }
 
 h1 {
@@ -126,6 +108,7 @@ h1 {
 }
 
 .slider-button {
+  top: 35px;
   cursor: pointer;
   color: white;
   font-weight: bold;
@@ -150,12 +133,13 @@ h1 {
 }
 
 .button-left {
+  position: absolute;
   left: -10px;
   margin-right: auto
 }
 
 .button-right {
-  float: right;
+  position: absolute;
   right: -10px;
   margin-left: auto
 }

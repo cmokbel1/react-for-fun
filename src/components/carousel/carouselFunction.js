@@ -24,10 +24,12 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   nextButton.addEventListener('click', () => {
+    console.log('ping')
     nextSlide();
   })
 
   prevButton.addEventListener('click', () => {
+    console.log('ping')
     prevSlide();
   })
 

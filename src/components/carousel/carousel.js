@@ -8,13 +8,13 @@ const PhotoSlider = () => {
       <div className="row">
         <h1>Testimonials</h1>
         <div id="slider">
-          <div className="button left slider-button">
+          <div className="button-left slider-button">
             <span> ( </span>
           </div>
-          <div className="buttonright slider-button">
+          <div className="button-right slider-button">
             <span> ) </span>
           </div>
-          <div class="slide slide1 showing">
+          <div className="slide slide1 showing">
             <div className="slide-text">
               This is sample testimonial for the carousel slider used for expressing likes of the product delivered
             </div>
@@ -28,7 +28,7 @@ const PhotoSlider = () => {
               </div>
             </div>
           </div>
-          <div class="slide slide2">
+          <div className="slide slide2">
             <div className="slide-text">
               This is sample testimonial for the carousel slider used for expressing likes of the product delivered
             </div>

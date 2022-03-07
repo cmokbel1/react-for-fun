@@ -5,17 +5,16 @@ const Navigation = () => {
   return (
     <nav>
       <div className="left-side">
-          <a className="brand-name" href="/">Brand Name</a>
+        <a className="brand-name" href="/">Brand Name</a>
         <div className="links">
-          <ul>
-            <li ><a href="/">Link 1</a></li>
-            <li ><a href="/">Link 2</a></li>
-            <li ><a href="/">Link 3</a></li>
-          </ul>
+          <a href="/">Link 1</a>
+          <a href="/">Link 2</a>
+          <a href="/">Link 3</a>
+
         </div>
       </div>
       <div className="right-side">
-          <span id="brandMessage">Branded Message</span>
+        <span id="brandMessage">Branded Message</span>
         <div id="loginSection">
           <div id="username">
             <label htmlFor="lUsername">username:</label>

@@ -1,6 +1,26 @@
+/* DOCUMENT SETTINGS */
+
 * {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
   margin: 0;
+  text-decoration: none;
+  font-size: 16px;
 }
+
+:root {
+  --bg-section: #374057;
+  --color-headers: #2c3e50;
+  --color-highlight-green: #00af4e;
+  --color-light-gray: #eeeff2;
+}
+
+body {
+  /* make the body full height */
+  height: 100vh;
+  background-color: rosybrown
+}
+
 /*  NAV STYLING BELOW THIS LINE */
 /*  whole nav */
 nav {
@@ -10,8 +30,7 @@ nav {
   background-color: hsl(0, 41%, 34%);
   height: 50px;
   padding-top: 10px;
-  border-bottom: 3px solid gray;
-  justify-content: space-between;
+  border-bottom: 1.5px solid whitesmoke;
 }
 
 /* company name */
@@ -20,11 +39,18 @@ nav .brand-name {
   color: black;
 }
 
+/* LEFT SIDE */
+
+.left-side {
+  width: 50%;
+}
+
 /* just the links */
-nav ul {
+nav a {
   display: inline-flex;
   list-style-type: none;
   margin-top: 0;
+  height: 100%;
 }
 
 nav .links {
@@ -33,11 +59,12 @@ nav .links {
 
 
 nav .links a:hover {
-  background-color: hsl(0, 41%, 21%);
-  border: 1px solid hsl(0, 65%, 38%);
+  background-color: hsl(0, 41%, 30%);
+  border: 1px solid hsl(0, 65%, 42%);
+  width: calc(+5%)
 }
 
-nav ul li:nth-child(n+1) {
+nav a:nth-child(n+1) {
   margin-left: 15px;
 
 }
@@ -45,7 +72,9 @@ nav ul li:nth-child(n+1) {
 
 /* NAV RIGHT SIDE*/
 
-
+.right-side {
+  width: 50%;
+}
 #brandMessage {
   font-weight: 700;
 }
@@ -90,7 +119,8 @@ nav button {
 /* FOOTER STYLING BELOW THIS LINE */
 
 .footer {
-  display:flex;
+  display: flex;
   justify-content: space-between;
 }
+
 /* FOOTER STYLING ABOVE THIS LINE */
